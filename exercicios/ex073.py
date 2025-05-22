@@ -1,0 +1,12 @@
+times = ("botafogo", "palmeiras","flamengo","fortaleza","interacional","sao paulo","corinthians","bahia","cruzeiro","vasco da gama", "vitoria","atletico mineiro","fluminense","gremio","juventude","bragantino","atletico paranaense", "criciuma","atletico goianiense", "cuiaba")
+print ("-=" * 15)
+print (f"Lista de times do Brasileirão 2024: {times}")
+print ("-=" * 15)
+print (f"Os 5 primeiros times são {times[0:5]}")
+print ("-=" * 15)
+print (f"Os 4 ultimos são {times[-4:]}")
+print ("-=" * 15)
+print(f"Times em ordem alfabetica: {sorted(times)}")
+print ("-=" * 15)
+juventude = times.index("juventude") + 1
+print (f"O juventude esta na {juventude} posição")
